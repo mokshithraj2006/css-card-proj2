@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            box-sizing: border-box;
+        }
+        *,*:before,*:after{
+            box-sizing: inherit;
+            font-family: karla;
+        }
+        #card{
+            width: 600px;
+            height: 350px;
+            box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35);
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        #top-section{
+            width: 100%;
+            height: 40%;
+            padding: 20px;
+
+        }
+        #bottom-section{
+            width: 100%;
+            height: 60%;
+            color: white;
+            
+
+        }
+        #bottom-left{
+            display: inline-block;
+            width: 50%;
+            height: 100%;
+            vertical-align: top;
+            background-color: #2ab2af;
+            padding: 20px;
+        }
+        #bottom-right{
+            display: inline-block;
+            width: 50%;
+            height: 100%;
+            background-color: #1ac9c5;
+            padding: 20px;
+
+        }
+        h2,h4,p{
+            margin: 0;
+        }
+        #top-section h2{
+            color: #2ab2af;
+        }
+        #top-section h4{
+            color: #c0df34;
+            margin: 10px;
+        }
+        #top-section p{
+            color: #76797b;
+        }
+        button{
+            color: white;
+            background-color: #c0df34;
+            border: none;
+            padding: 10px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="card">
+        <div id="top-section">
+            <h2>Join our community</h2>
+            <h4>30-day money back guarantee</h4>
+            <p>Gain access to our full library of tutorials along
+             with expert code reviews.
+             Perfect for any developers who are serious 
+             about honing their skills</p>
+
+        </div>
+        <div id="bottom-section">
+            <div id="bottom-left">
+                <h4>Monthly Subscription</h4>
+                <div>
+                    $29
+                </div>
+                <div>
+                    per month
+                </div>
+                <p>full accsess for less than $1 a day</p>
+                <button>Sign Up</button>
+
+            </div><div id="bottom-right">
+                <h4>Why Us</h4>
+                <ul>
+                    <li>Tutorials by industry experts</li>
+                    <li>Peer & expert code review</li>
+                    <li>Coding exercises</li>
+                    <li>Access to our GitHub repos</li>
+                    <li>Community forum</li>
+                    <li>Flashcard decks</li>
+                    <li>New videos every week</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
